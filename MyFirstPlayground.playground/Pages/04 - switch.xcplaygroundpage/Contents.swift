@@ -29,9 +29,9 @@ case 4...10:
 case 11..<18:
     print("\(msg2) teenager")
 case 18...70:
-    print("\(msg2) adult")
+    print("\(msg2)n adult")
 case 71..<100:
-    print("\(msg2) elder")
+    print("\(msg2)n elder")
 default:
     print("Amazing!!!")
 }
