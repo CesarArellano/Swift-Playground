@@ -8,5 +8,6 @@
         <page name='05 - arrays'/>
         <page name='06 - dictionaries'/>
         <page name='07 - Loops'/>
+        <page name='08 - Optionals'/>
     </pages>
 </playground>
