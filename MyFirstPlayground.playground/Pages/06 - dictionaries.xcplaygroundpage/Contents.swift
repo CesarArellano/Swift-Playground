@@ -1,4 +1,5 @@
 // Dictionaries
+// No son una estructura ordenada.
 
 let myOldDictionary = Dictionary<String, Int>()
 var myNewDictionary = [String:Int]()
