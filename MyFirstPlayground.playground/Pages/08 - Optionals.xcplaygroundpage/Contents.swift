@@ -1,6 +1,6 @@
 // Optionals
 
-let myString = "RWD"
+let myString = "123"
 let myInt = Int(myString)
 
 print(myInt)
