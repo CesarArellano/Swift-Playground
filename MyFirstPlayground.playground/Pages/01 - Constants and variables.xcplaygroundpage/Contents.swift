@@ -25,3 +25,14 @@ print(myFirstConstant)
 let mySecondConstant = myFirstVariable
 
 print(mySecondConstant)
+
+// Tuples
+
+let (firstValue, secondValue) = ("Swift", "Beta")
+
+print(firstValue)
+print(secondValue)
+
+typealias Name = String // Name ahora es igual que String (contiene todos sus métodos)
+let username: Name = "RayWayDay"
+print(username)

@@ -9,6 +9,11 @@ let myFirstArray = Array<String>() // Classic way to declare arrays
 var myModernArray = [String]() // Modern way to declare arrays.
 var myModernArray2: [String] = [] // Modern way to declare arrays.
 
+if myModernArray.isEmpty {
+    print("myModernArray is empty in this point");
+} else {
+    print("myModernArray isn't empty in this point")
+}
 // Add data
 
 myModernArray.append(name)
@@ -47,7 +52,12 @@ for value in myModernArray {
     print(value)
 }
 
+myModernArray.reverse()
+print(myModernArray)
 
 // Show length
+print("myModernArray Length: \( myModernArray.count )")
 
-print(myModernArray.count)
+
+// Show contains
+print("myModernArray constains: \( myModernArray.contains("Apple") )")
