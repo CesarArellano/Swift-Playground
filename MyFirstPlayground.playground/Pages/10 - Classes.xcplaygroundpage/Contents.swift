@@ -126,13 +126,20 @@ print("")
 print("=========================Inheritance=================================")
 class Vehicle {
   var wheels: Int
-  
+  var description: String {
+    return "Car"
+  }
+
   init(wheels: Int) {
     self.wheels = wheels
   }
 
   func start() {
     print("Start engine...")
+  }
+
+  func makeNoise() {
+    print("make Noise...")
   }
 }
 
@@ -144,14 +151,25 @@ class BMW: Vehicle {
 
 class BMW_4x4: BMW {
 
+  override var description: String {
+    return "Sedan Car"
+  }
+
+  override func makeNoise() {
+    print("override Make Noise...")
+  }
 }
 
 let bmw = BMW(wheels: 4)
 bmw.start()
 bmw.stop()
+bmw.makeNoise()
+print( bmw.description )
 
 let bmw_4x4 = BMW_4x4(wheels: 4)
-bmw.stop()
+bmw_4x4.stop()
+bmw_4x4.makeNoise()
+print( bmw_4x4.description )
 
 var newBmw = bmw;
 var anotherBmw = bmw;
