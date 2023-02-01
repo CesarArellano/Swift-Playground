@@ -1,9 +1,7 @@
-import UIKit
-
 // Variables
 /*
- This is a
- multiline commentary
+  This is a
+  multiline commentary
 */
 var myFirstVariable = "Hello"
 var myFirstNumber = 15

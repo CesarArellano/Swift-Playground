@@ -1,5 +1,3 @@
-import UIKit
-
 // String
 let name: String = "César Arellano"
 let age: String = "22"
